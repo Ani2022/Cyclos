@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23366" started-at="2020-02-12T10:47:30Z" finished-at="2020-02-12T10:47:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23366" started-at="2020-02-12T10:47:30Z" finished-at="2020-02-12T10:47:53Z">
+      <class name="com.training.sanity.tests.Filter">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Filter@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-02-12T10:47:30Z" finished-at="2020-02-12T10:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Filter@3bfdc050]" name="setUp" is-config="true" duration-ms="15558" started-at="2020-02-12T10:47:30Z" finished-at="2020-02-12T10:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Filter@3bfdc050]" name="validLoginTest" duration-ms="5775" started-at="2020-02-12T10:47:45Z" finished-at="2020-02-12T10:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Filter@3bfdc050]" name="tearDown" is-config="true" duration-ms="1982" started-at="2020-02-12T10:47:51Z" finished-at="2020-02-12T10:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Filter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
