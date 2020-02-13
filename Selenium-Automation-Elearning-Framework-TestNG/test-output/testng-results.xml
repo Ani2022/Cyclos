@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30485" started-at="2020-02-12T18:01:35Z" finished-at="2020-02-12T18:02:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30485" started-at="2020-02-12T18:01:35Z" finished-at="2020-02-12T18:02:05Z">
+      <class name="com.training.sanity.tests.MediumTestNG">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MediumTestNG@6f7fd0e6]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-02-12T18:01:35Z" finished-at="2020-02-12T18:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTestNG@6f7fd0e6]" name="setUp" is-config="true" duration-ms="12573" started-at="2020-02-12T18:01:35Z" finished-at="2020-02-12T18:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MediumTest()[pri:0, instance:com.training.sanity.tests.MediumTestNG@6f7fd0e6]" name="MediumTest" duration-ms="15947" started-at="2020-02-12T18:01:47Z" finished-at="2020-02-12T18:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MediumTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTestNG@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="1914" started-at="2020-02-12T18:02:03Z" finished-at="2020-02-12T18:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.MediumTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
