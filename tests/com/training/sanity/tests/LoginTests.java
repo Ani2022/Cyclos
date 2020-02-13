@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -26,7 +27,7 @@ public class LoginTests {
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();
-		FileInputStream inStream = new FileInputStream("http://localhost:8585/");
+		FileInputStream inStream = new FileInputStream("./resources/others.properties");
 		properties.load(inStream);
 	}
 
@@ -46,10 +47,25 @@ public class LoginTests {
 		driver.quit();
 	}
 	@Test
-	public void validLoginTest() {
+	public void validLoginTest() throws InterruptedException {
 		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
-		screenShot.captureScreenShot("First");
+		loginPOM.button1();
+		loginPOM.button2();
+		loginPOM.button3();
+		loginPOM.button4();
+		loginPOM.submit();
+		loginPOM.member1();
+        //Thread.sleep(3000);
+		
+       loginPOM.grant1();  
+       loginPOM.loan1();
+       loginPOM.dep();
+       loginPOM.subm();
+       loginPOM.subm1();
+       loginPOM.assert1();
+       loginPOM.alert();
 	}
+	
+	
+	
 }

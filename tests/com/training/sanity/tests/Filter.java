@@ -12,16 +12,20 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
-import com.training.pom.LoginPOM;
+import com.training.pom.LoginFilterPOM;
+import com.training.pom.MemberPOM;
+import com.training.pom.SelectPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
 public class Filter {
 	private WebDriver driver;
 	private String baseUrl;
-	private LoginPOM loginPOM;
+	//private LoginPOM loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
+	private MemberPOM memberPOM;
+	private SelectPOM selectPOM;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
@@ -33,7 +37,9 @@ public class Filter {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
+		//loginPOM = new LoginPOM(driver);
+		memberPOM =new MemberPOM(driver);
+		selectPOM =new SelectPOM(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
@@ -47,24 +53,26 @@ public class Filter {
 	}
 	@Test
 	public void validLoginTest() throws InterruptedException {
-		loginPOM.sendUserName("samsaravanan");
-		loginPOM.But1();
-		loginPOM.But2();
-		loginPOM.But3();
-		loginPOM.But4();
-		loginPOM.submit();
-		loginPOM.perso();
-		loginPOM.mess();
-		loginPOM.advance();
-		loginPOM.sele();
-		loginPOM.sele1();
-		loginPOM.sees();
-		loginPOM.selen();
-		loginPOM.selen1();
-		loginPOM.selenw();
-		loginPOM.swa();
-		loginPOM.swa1();
-		loginPOM.swa2();
+		memberPOM.sendUserName("samsaravanan");
+		memberPOM.But1();
+		memberPOM.But2();
+		memberPOM.But3();
+		memberPOM.But4();
+		memberPOM.submit();
+		selectPOM.personal_Link();
+		selectPOM.message_Link();
+		selectPOM.advance_Button();
+		selectPOM.message_Listbox();
+		selectPOM.type_Listbox();
+		selectPOM.submit_Btn1();
+		selectPOM.message_Listbox1();
+		selectPOM.type_Listbox1();
+		selectPOM.submit_Btn2();
+		selectPOM.message_Listbox2();
+		selectPOM.type_Listbox2();
+		selectPOM.submit_Btn3();
+		
+		
 		
 		
        
