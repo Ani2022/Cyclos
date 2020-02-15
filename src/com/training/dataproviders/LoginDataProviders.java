@@ -22,6 +22,7 @@ public class LoginDataProviders {
 			Object[]  obj = new Object[2]; 
 			obj[0] = temp.getUserName(); 
 			obj[1] = temp.getPassword(); 
+			obj[2] = temp.getemployee();
 			
 			result[count ++] = obj; 
 		}
