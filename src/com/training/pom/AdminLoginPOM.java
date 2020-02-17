@@ -5,20 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LaunchMemberPOM {
+public class AdminLoginPOM {
 	private WebDriver driver;
-
-	public LaunchMemberPOM(WebDriver driver) {
 	
+	public AdminLoginPOM(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
-		
-	}
+		}
+
 	@FindBy(id="cyclosUsername")
-	private WebElement memberUsername; 
+	private WebElement adminUsername; 
 	
 	@FindBy(id="cyclosPassword")
-	private WebElement memberPassword;
+	private WebElement adminPassword;
 	
 	@FindBy(xpath="//input[@value='1']")
 	private WebElement Button1; 
@@ -36,11 +37,11 @@ public class LaunchMemberPOM {
 	private WebElement Submitbtn; 
 	
 	public void sendUserName(String userName) {
-		this.memberUsername.sendKeys(userName);
+		this.adminUsername.sendKeys(userName);
 	}
 	
 	public void sendPassword() {
-		this.memberPassword.click(); 
+		this.adminPassword.click(); 
 		 
 	}
 	

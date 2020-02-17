@@ -8,7 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class LaunchAdminPOM {
 	private WebDriver driver;
 
-	public void LoginPOM(WebDriver driver) {
+	public LaunchAdminPOM(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
 		}
@@ -67,6 +69,16 @@ public class LaunchAdminPOM {
 	}
 	public void Submitbuton() {
 		this.Submitbtn.click(); 
+	}
+	
+	public void clickadminmsg(){
+		this.clickmessages.click(); 
+	}
+	public void clickmessages1() {
+		this.clickmsgs1.click(); 
+	}
+	public void Clickhello() {
+		this.clickhello.click(); 
 	}
 	
 	

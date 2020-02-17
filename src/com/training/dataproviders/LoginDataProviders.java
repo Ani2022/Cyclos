@@ -29,12 +29,19 @@ public class LoginDataProviders {
 		
 		return result;
 	}
-	
 	@DataProvider(name = "excel-inputs")
 	public Object[][] getExcelData(){
 		String fileName ="C:/Users/Naveen/Desktop/Testing.xlsx"; 
 		return new ApachePOIExcelRead().getExcelContent(fileName); 
 	}
+	
+	@DataProvider(name = "cyclos")
+	public Object[][] getExcelContents(){
+		String FileName ="C:\\Users\\IBM\\Desktop\\Cyclos1.xlsx";
+		
+		return new ApachePOIExcelRead().getExcelContent(FileName); 
+	}
+	
 	
 	@DataProvider(name = "xls-inputs")
 	public Object[][] getXLSData(){

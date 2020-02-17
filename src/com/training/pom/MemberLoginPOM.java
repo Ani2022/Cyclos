@@ -5,11 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LaunchMemberPOM {
+public class MemberLoginPOM {
 	private WebDriver driver;
 
-	public LaunchMemberPOM(WebDriver driver) {
-	
+	public MemberLoginPOM(WebDriver driver) {
+		// TODO Auto-generated method stub
+
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
 		
@@ -62,5 +63,6 @@ public class LaunchMemberPOM {
 	}
 
 	
+
 
 }

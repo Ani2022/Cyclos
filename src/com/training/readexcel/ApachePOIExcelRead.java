@@ -19,13 +19,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  *      access.
  */
 public class ApachePOIExcelRead {
-	public  String [][] getExcelContent(String fileName) {
+	public  String [][] getExcelContent(String FileName) {
 		int rowCount =0; 
 		String [][] list1 = null; 
 		
 		try {
-			System.out.println("File Name Got " + fileName);
-			FileInputStream file = new FileInputStream(new File(fileName));
+			System.out.println("File Name Got " + FileName);
+			FileInputStream file = new FileInputStream(new File(FileName));
 
 			// Create Workbook instance holding reference to .xlsx file
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
@@ -88,14 +88,4 @@ public class ApachePOIExcelRead {
 		return list1;
 	}
 
-	public static void main(String[] args) {
-		String fileName = "C:/Users/Naveen/Desktop/Testing.xlsx";
-		
-		for(String [] temp : new ApachePOIExcelRead().getExcelContent(fileName)){
-			for(String  tt : temp){
-				System.out.println(tt);
-			}
-		}
-
-	}
 }

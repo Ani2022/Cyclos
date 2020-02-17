@@ -9,7 +9,8 @@ public class MessagePOM {
 
 	private WebDriver driver;
 
-	public void LoginPOM(WebDriver driver) {
+	public MessagePOM(WebDriver driver) {
+
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
 	}
@@ -17,8 +18,8 @@ public class MessagePOM {
 	private WebElement clickpersonal;
 	
 	@FindBy(xpath="//li[@id='submenu1.1']")
-	private WebElement clickmessages; 
-	
+	private WebElement clickmessages;                                       
+																				
 	@FindBy(id="newButton")
 	private WebElement clicksubmit;
 	
@@ -39,4 +40,36 @@ public class MessagePOM {
 	
 	@FindBy(xpath="	//li[@id='menu6']")
 	private WebElement clicklogout;
+	
+	public void personal() {
+		this.clickpersonal.click();
+	}
+	 
+	public void messages() {
+		this.clickmessages.click(); 	 
+	}
+	public void Submit() {
+		this.clicksubmit.click(); 
+	}
+	
+	public void Admin() {
+		this.clickadmin.click(); 
+	}
+	public void loan() {
+		this.clickloan.click(); 
+	}
+	public void Subject(String sub) {
+		this.sendsubject.sendKeys(sub); 
+	}
+	public void Description(String des) {
+		this.clickdes.sendKeys(des);
+	}
+	public void submit1() {
+		this.sendmsg.click(); 
+	}
+	public void logout() {
+		this.clicklogout.click(); 
+	}
+	
+
 }

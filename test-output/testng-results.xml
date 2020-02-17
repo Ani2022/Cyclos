@@ -1,29 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25026" started-at="2020-02-12T04:50:01Z" finished-at="2020-02-12T04:50:26Z">
+  <suite name="Default suite" duration-ms="60574" started-at="2020-02-17T10:44:09Z" finished-at="2020-02-17T10:45:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25026" started-at="2020-02-12T04:50:01Z" finished-at="2020-02-12T04:50:26Z">
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@6500df86]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-02-12T04:50:01Z" finished-at="2020-02-12T04:50:01Z">
+    <test name="Default test" duration-ms="60574" started-at="2020-02-17T10:44:09Z" finished-at="2020-02-17T10:45:10Z">
+      <class name="com.training.sanity.tests.ContactsPaymentTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2020-02-17T10:44:09Z" finished-at="2020-02-17T10:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@6500df86]" name="setUp" is-config="true" duration-ms="12862" started-at="2020-02-12T04:50:01Z" finished-at="2020-02-12T04:50:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="12845" started-at="2020-02-17T10:44:10Z" finished-at="2020-02-17T10:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@6500df86]" name="validLoginTest" duration-ms="10049" started-at="2020-02-12T04:50:14Z" finished-at="2020-02-12T04:50:24Z">
+        <test-method status="PASS" signature="contactsPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="contactsPayment" duration-ms="9640" started-at="2020-02-17T10:44:23Z" data-provider="cyclos" finished-at="2020-02-17T10:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bonus]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@6500df86]" name="tearDown" is-config="true" duration-ms="2064" started-at="2020-02-12T04:50:24Z" finished-at="2020-02-12T04:50:26Z">
+        </test-method> <!-- contactsPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1950" started-at="2020-02-17T10:44:33Z" finished-at="2020-02-17T10:44:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="10529" started-at="2020-02-17T10:44:35Z" finished-at="2020-02-17T10:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="contactsPayment" duration-ms="5612" started-at="2020-02-17T10:44:45Z" data-provider="cyclos" finished-at="2020-02-17T10:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[farewell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1854" started-at="2020-02-17T10:44:51Z" finished-at="2020-02-17T10:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="10982" started-at="2020-02-17T10:44:53Z" finished-at="2020-02-17T10:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="contactsPayment" duration-ms="4479" started-at="2020-02-17T10:45:04Z" data-provider="cyclos" finished-at="2020-02-17T10:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gift voucher]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ContactsPaymentTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1844" started-at="2020-02-17T10:45:08Z" finished-at="2020-02-17T10:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.ContactsPaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
