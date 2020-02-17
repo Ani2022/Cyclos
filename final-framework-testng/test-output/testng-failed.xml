@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.MemPayView">
+      <class name="com.training.sanity.tests.ComplexTest">
         <methods>
-          <include name="teardown"/>
-          <include name="setUp"/>
-          <include name="setUpBeforeClass"/>
           <include name="Step1"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.MemPayView -->
+      </class> <!-- com.training.sanity.tests.ComplexTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

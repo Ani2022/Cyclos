@@ -7,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -43,7 +44,7 @@ public class AddAdmin {
 	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
-		driver.quit();
+		//driver.quit();
 	}
 	
 	
@@ -64,12 +65,19 @@ public class AddAdmin {
 		  Thread.sleep(1000);
 		  addpom.clickMansubbtn();
 		  addpom.clicknewButton();
+		  addpom.sendTitle("manzoor");
 		  addpom.clickCategory();
 		  Robot robot=new Robot();
           robot.keyPress(KeyEvent.VK_DOWN);
           robot.keyPress(KeyEvent.VK_ENTER);
           addpom.sendUnits("7");
           addpom.clicknotExpirableCheck();
+          driver.switchTo().parentFrame();
+          addpom.sendDescription("Welcome");
+          addpom.clicksubmit();
+          Alert alt=driver.switchTo().alert();
+    		String alert=alt.getText();
+    	  alt.accept();
          addpom.clicksaveButton();
           addpom.clickbackButton();
 	}

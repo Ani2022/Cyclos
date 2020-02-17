@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61619" started-at="2020-02-13T06:20:43Z" finished-at="2020-02-13T06:21:45Z">
+  <suite name="Default suite" duration-ms="18754" started-at="2020-02-14T07:11:23Z" finished-at="2020-02-14T07:11:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61619" started-at="2020-02-13T06:20:43Z" finished-at="2020-02-13T06:21:45Z">
-      <class name="com.training.sanity.tests.MemPayView">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MemPayView@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="13" started-at="2020-02-13T06:20:43Z" finished-at="2020-02-13T06:20:43Z">
+    <test name="Default test" duration-ms="18754" started-at="2020-02-14T07:11:23Z" finished-at="2020-02-14T07:11:42Z">
+      <class name="com.training.sanity.tests.ComplexTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ComplexTest@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2020-02-14T07:11:23Z" finished-at="2020-02-14T07:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MemPayView@3bfdc050]" name="setUp" is-config="true" duration-ms="39293" started-at="2020-02-13T06:20:43Z" finished-at="2020-02-13T06:21:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ComplexTest@3bfdc050]" name="setUp" is-config="true" duration-ms="12537" started-at="2020-02-14T07:11:23Z" finished-at="2020-02-14T07:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Step1()[pri:1, instance:com.training.sanity.tests.MemPayView@3bfdc050]" name="Step1" duration-ms="21279" started-at="2020-02-13T06:21:23Z" finished-at="2020-02-13T06:21:44Z">
+        <test-method status="PASS" signature="Step1()[pri:1, instance:com.training.sanity.tests.ComplexTest@3bfdc050]" name="Step1" duration-ms="5165" started-at="2020-02-14T07:11:36Z" finished-at="2020-02-14T07:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.sanity.tests.MemPayView@3bfdc050]" name="teardown" is-config="true" duration-ms="1002" started-at="2020-02-13T06:21:44Z" finished-at="2020-02-13T06:21:45Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.sanity.tests.ComplexTest@3bfdc050]" name="teardown" is-config="true" duration-ms="1000" started-at="2020-02-14T07:11:41Z" finished-at="2020-02-14T07:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.training.sanity.tests.MemPayView -->
+      </class> <!-- com.training.sanity.tests.ComplexTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

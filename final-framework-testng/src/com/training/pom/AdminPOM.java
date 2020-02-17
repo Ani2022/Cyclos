@@ -37,9 +37,6 @@ private WebDriver driver;
 
 	@FindBy(id="type")//by inspecting we need to take id
 	private WebElement type ;
-
-
-	
 	
 	@FindBy(xpath="//input[@id='submitButton']")
 	private WebElement subbtn1;

@@ -1,5 +1,6 @@
 package com.training.pom;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -50,6 +51,9 @@ public class AdddvertisementPOM {
 	@FindBy(id="newButton")
 	private WebElement newButton;
 
+	@FindBy(name="ad(title)")
+	private WebElement Title;
+	
 	@FindBy(name="ad(category)")
 	private WebElement Category;
 
@@ -58,6 +62,12 @@ public class AdddvertisementPOM {
 
 	@FindBy(id="notExpirableCheck")
 	private WebElement notExpirableCheck;
+	
+	@FindBy(tagName="iframe")
+	private WebElement Description;
+	
+	@FindBy(id="saveButton")
+	private WebElement SubmitBtn;
 
 	@FindBy(id="saveButton")
 	private WebElement saveButton;
@@ -116,6 +126,10 @@ public class AdddvertisementPOM {
 		this.newButton.click();
 	}
 	
+	public void sendTitle(String Title) {
+		this.Title.sendKeys(Title);
+	}
+	
 	public void clickCategory(){
 		this.Category.click();
 	}
@@ -129,6 +143,16 @@ public class AdddvertisementPOM {
 		this.notExpirableCheck.click();
 	}
 	
+	public void sendDescription(String Desc) {
+		this.Description.sendKeys(Desc);
+	}
+	
+	public void clicksubmit() {
+		this.SubmitBtn.click();
+      
+		
+	}
+
 	public void clicksaveButton() {
 		this.saveButton.click();
 	}

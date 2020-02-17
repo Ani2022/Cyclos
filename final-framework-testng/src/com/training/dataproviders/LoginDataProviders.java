@@ -11,7 +11,7 @@ import com.training.readexcel.ReadExcel;
 
 public class LoginDataProviders {
 
-	@DataProvider(name = "db-inputs")
+	@DataProvider(name = "cyclos")
 	public Object [][] getDBData() {
 
 		List<LoginBean> list = new ELearningDAO().getLogins(); 
@@ -19,9 +19,11 @@ public class LoginDataProviders {
 		Object[][] result = new Object[list.size()][]; 
 		int count = 0; 
 		for(LoginBean temp : list){
-			Object[]  obj = new Object[2]; 
-			obj[0] = temp.getUserName(); 
-			obj[1] = temp.getPassword(); 
+			Object[]  obj = new Object[4]; 
+			obj[0] = temp.getFirstName(); 
+			obj[1] = temp.getLastName(); 
+			obj[2] = temp.getEmail(); 
+			obj[3] = temp.getPassword(); 
 			
 			result[count ++] = obj; 
 		}
