@@ -37,7 +37,7 @@ public class ComplexPOM {
 	@FindBy(id="memberUsername")
 	private WebElement memberUsername;
 	
-	@FindBy(xpath="//input[@linkurl='grantLoan?memberId=9']")
+	@FindBy(xpath="//*[@id='tdContents']/table[1]/tbody/tr[2]/td/table/tbody/tr[8]/td/fieldset/table/tbody/tr[1]/td[4]/input")
 	private WebElement Grantloanbtn;
 	
 	@FindBy(id="amount")
@@ -46,17 +46,14 @@ public class ComplexPOM {
 	@FindBy(id="description")
 	private WebElement description;
 	
-	@FindBy(xpath="//input[@value='Submit']")
+	@FindBy(xpath="//*[@id='tdContents']/form/table[1]/tbody/tr[2]/td/table/tbody/tr[17]/td/input")
 	private WebElement Submit1;
 	
-	@FindBy(xpath="//input[@value='Submit']")
+	
+	@FindBy(xpath="//*[@id='tdContents']/form/table[1]/tbody/tr[2]/td/table/tbody/tr[7]/td/input")
 	private WebElement Submit2;
 	
-	// Alert a= driver.switchTo().alert();
-	// String saman=a.getText();
- 
-     
-public void cyclosUsername(String Username) {
+	public void cyclosUsername(String Username) {
 
 	this.Username.sendKeys(Username);
 	}

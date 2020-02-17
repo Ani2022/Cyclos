@@ -1,6 +1,6 @@
 create table login(
 member_login varchar(50),
-amount number(50));
+amount number(50),
 description varchar(50));
 
 

@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpBeforeClass"/>
           <include name="setUp"/>
-          <include name="ComplexTesto" invocation-numbers="1 2"/>
+          <include name="ComplexTesto" invocation-numbers="1"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.training.sanity.tests.ComplexTest -->
