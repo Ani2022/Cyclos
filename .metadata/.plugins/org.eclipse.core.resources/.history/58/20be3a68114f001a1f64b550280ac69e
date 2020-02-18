@@ -1,0 +1,9 @@
+package com.training.sanity.tests;
+
+import org.testng.annotations.Test;
+
+public class Complex1Test {
+  @Test
+  public void f() {
+  }
+}

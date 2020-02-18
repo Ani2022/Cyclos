@@ -1,0 +1,9 @@
+package com.training.sanity.tests;
+
+import org.testng.annotations.Test;
+
+public class MediumTest {
+  @Test
+  public void f() {
+  }
+}

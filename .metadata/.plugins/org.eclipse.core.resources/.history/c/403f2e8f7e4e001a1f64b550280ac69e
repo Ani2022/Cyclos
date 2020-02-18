@@ -1,0 +1,83 @@
+package com.training.pom;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ComplexCase {
+	private WebDriver driver;
+
+	public ComplexCase(WebDriver driver) {
+	this.driver = driver;
+	PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(id="cyclosUsername")//by inspecting we need to take id
+	private WebElement Username ;
+	
+	@FindBy(id="cyclosPassword")
+	private WebElement userPassword; 
+
+
+	@FindBy(xpath="//input[@value='1']")
+	private WebElement password1;
+	@FindBy(xpath="//input[@value='2']")
+	private WebElement password2;
+	@FindBy(xpath="//input[@value='3']")
+	private WebElement password3;
+	@FindBy(xpath="//input[@value='4']")
+	private WebElement password4;
+
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement loginBtn;
+	
+	File sf=new File("E:\\selenium  server\\New folder\\Complex");
+	FileInputStream fis=new FileInputStream(sf);
+	XSSFWorkbook book=new XSSFWorkbook(fis);
+	XSSFSheet sheet=book.getSheetAt(0);
+	int rowcount=sheet.getLastRowNum();
+	
+	
+	
+	
+	
+	@FindBy(id="memberUsername")
+	private WebElement memberUsername;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Grantloanbtn;
+	
+	@FindBy(id="amount")
+	private WebElement amount ;
+	
+	@FindBy(id="description")
+	private WebElement description;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Submit1;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Submit2;
+	
+	Alert.accept();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

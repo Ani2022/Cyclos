@@ -1,0 +1,9 @@
+package mytestcase;
+
+import org.testng.annotations.Test;
+
+public class MineTestcase {
+  @Test
+  public void f() {
+  }
+}

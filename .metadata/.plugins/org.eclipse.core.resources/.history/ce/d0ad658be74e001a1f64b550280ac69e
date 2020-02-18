@@ -1,0 +1,115 @@
+package com.training.pom;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+public class ComplexPOM {
+	private WebDriver driver;
+
+	public ComplexPOM(WebDriver driver) {
+	this.driver = driver;
+	PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(id="cyclosUsername")//by inspecting we need to take id
+	private WebElement Username ;
+	
+	@FindBy(id="cyclosPassword")
+	private WebElement userPassword; 
+
+
+	@FindBy(xpath="//input[@value='1']")
+	private WebElement password1;
+	@FindBy(xpath="//input[@value='2']")
+	private WebElement password2;
+	@FindBy(xpath="//input[@value='3']")
+	private WebElement password3;
+	@FindBy(xpath="//input[@value='4']")
+	private WebElement password4;
+
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement loginBtn;
+	
+	@FindBy(id="memberUsername")
+	private WebElement memberUsername;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Grantloanbtn;
+	
+	
+	
+	
+	//File sf=new File("E:\\selenium  server\\complex");
+	//FileInputStream fis=new FileInputStream(sf);
+	//XSSFWorkbook book=new XSSFWorkbook(fis);
+	//XSSFSheet sheet=book.getSheetAt(0);
+	//int rowcount=sheet.getLastRowNum();
+	//String amount = sheet.getRow(1).getCell(0).getStringCellValue();
+	//String description = sheet.getRow(2).getCell(1).getStringCellValue();
+	
+	//driver.findElement(By.id("amount")).sendKys(amount);
+	
+	@FindBy(id="amount")
+	private WebElement amount ;
+	
+	@FindBy(id="description")
+	private WebElement description;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Submit1;
+	
+	@FindBy(xpath="//input[@value='Submit']")
+	private WebElement Submit2;
+	
+	 Alert a= driver.switchTo().alert();
+	 String saman=a.getText();
+ 
+     
+public void cyclosUsername(String Username) {
+
+	this.Username.sendKeys(Username);
+	}
+    public void cyclosPassword() {
+		this.userPassword.click();
+	}
+
+	public void password1(){
+	this.password1.click();
+	}
+	public void password2(){
+	this.password2.click();
+	}
+	public void password3(){
+	this.password3.click();
+	}
+	public void password4(){
+	this.password4.click();
+	}
+	public void login(){
+		this.loginBtn.click();}
+	
+		public void member(){
+			this.memberUsername.click();}
+		
+		public void grant(){
+			this.Grantloanbtn.click();}
+
+		public void amount(){
+			this.amount.click();}
+		
+		public void description(){
+			this.description.click();}
+		
+		public void Submit1(){
+			this.Submit1.click();}
+		
+		public void Submit2(){
+			this.Submit2.click();}
+	
+	
+	
+
+}

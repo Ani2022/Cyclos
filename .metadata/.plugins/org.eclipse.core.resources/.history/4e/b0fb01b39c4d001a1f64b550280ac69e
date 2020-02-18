@@ -1,0 +1,95 @@
+package com.training.pom;
+
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+public class LoginPOM {
+	private WebDriver driver; 
+	
+	public LoginPOM(WebDriver driver) {
+		this.driver = driver; 
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(id="cyclosUsername")
+	private WebElement userName; 
+	
+
+	
+	@FindBy(xpath="//input[@value='1']")
+	private WebElement password1;
+	
+	@FindBy(xpath="//input[@value='2']")
+	private WebElement password2;
+	
+	@FindBy(xpath="//input[@value='3']")
+	private WebElement password3;
+	
+	@FindBy(xpath="//input[@value='4']")
+	private WebElement password4;
+	
+	@FindBy(xpath="//tr/tr//td//input[@value='Submit']")
+	private WebElement loginBtn;
+	
+	@FindBy(xpath="//*[@id='menu3']/span[2]")
+	private WebElement accounts;
+	
+	@FindBy(xpath="//*[@id='submenu3.3']/span[2]")
+	private WebElement ManageInvoices;
+	
+	//@FindBy(xpath="//*[@id='tdContents']")
+	//private WebElement querytransferType;
+	
+	Select listbox = new Select(driver.findElement(By.xpath("//*[@name='query(transferType)']")));
+	//listbox.selectByIndex(15);
+	private WebElement list;
+	
+      @FindBy(xpath= "//*[@id='tdContents']/form/table/tbody/tr[2]/td/table/tbody/tr[5]/td[2]/input")
+      private WebElement Search;
+	
+		
+public void cyclosUsername(String cyclosUsername){
+		this.userName.clear();
+		this.userName.sendKeys(cyclosUsername);
+	}
+//public void cyclosPassword(){}
+	
+	public void Password1() {
+		this.password1.click();
+	}
+	public void Password2() {
+		this.password2.click();
+	}
+	public void Password3() {
+		this.password3.click();
+	}
+	public void Password4() {
+		this.password4.click();
+	}
+		
+	public void clickLoginBtn() {
+		this.loginBtn.click(); 
+	}
+	public void account(){
+		this.accounts.click();
+		}
+	public void manage(){
+		this.ManageInvoices.click();
+	}
+	
+	public void select(){
+		listbox.selectByIndex(15);
+		this.list.isSelected();
+	}
+	public void searching(){
+		this .Search.click();
+	}
+	}
+

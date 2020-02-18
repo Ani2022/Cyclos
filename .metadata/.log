@@ -1,0 +1,871 @@
+!SESSION 2020-02-17 16:32:07.332 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170222-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file E:\Softwares Required For Testing Batch\eclipse with jira\.metadata\.bak_0.log
+Created Time: 2020-02-17 18:04:31.662
+
+!ENTRY org.testng.eclipse 1 0 2020-02-17 18:04:31.662
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60165 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse--216117650\testng-customsuite.xml
+java -ea -classpath E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar:C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar:C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar org.testng.remote.RemoteTestNG -serport 60165 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse--216117650\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-02-17 18:10:19.430
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60319 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse--743686658\testng-customsuite.xml
+java -ea -classpath E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar:C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar:C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar org.testng.remote.RemoteTestNG -serport 60319 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse--743686658\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-02-17 18:17:22.289
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60507 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse-728925816\testng-customsuite.xml
+java -ea -classpath E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar:C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar:C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar org.testng.remote.RemoteTestNG -serport 60507 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse-728925816\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-02-17 18:19:39.814
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60624 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse-65834895\testng-customsuite.xml
+java -ea -classpath E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\test-classes:E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\target\classes:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:E:\Project Eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\IBM\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\IBM\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\IBM\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\IBM\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\IBM\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\IBM\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\IBM\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\IBM\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\IBM\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\IBM\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\IBM\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\IBM\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar:C:\Users\IBM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar:C:\Users\IBM\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar:C:\Users\IBM\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\IBM\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\IBM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\IBM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\IBM\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\IBM\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\IBM\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\IBM\.m2\repository\jexcelapi\jxl\2.4.2\jxl-2.4.2.jar org.testng.remote.RemoteTestNG -serport 60624 -protocol json -d E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG\test-output C:\Users\IBM\AppData\Local\Temp\testng-eclipse-65834895\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:22:16.230
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:22:16.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:39:39.646
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:39:39.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:40:14.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:40:14.754
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:40:29.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:40:29.880
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 18:43:44.642
+!MESSAGE An exception occurred during push on URI https://github.com/adithnaveen/selenium-elearning-automation-framework/: https://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:530)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 18:44:15.218
+!MESSAGE An exception occurred during push on URI https://github.com/adithnaveen/selenium-elearning-automation-framework/: https://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:530)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 18:45:16.151
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 18:45:16.182
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 18:45:16.213
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 18:45:16.245
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 18:45:16.260
+!MESSAGE An exception occurred during push on URI http://github.com/adithnaveen/selenium-elearning-automation-framework/: http://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+!STACK 0
+org.eclipse.jgit.errors.TransportException: http://github.com/adithnaveen/selenium-elearning-automation-framework/: 407 Proxy Access Denied
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:530)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:59:58.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 18:59:59.078
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:00:42.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:00:42.289
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:01:02.520
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:01:02.556
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:02:08.436
+!MESSAGE An exception occurred during push on URI http://github.com/adithnaveen/selenium-elearning-automation-framework/: http://github.com/adithnaveen/selenium-elearning-automation-framework/: 502 Connection timed out
+!STACK 0
+org.eclipse.jgit.errors.TransportException: http://github.com/adithnaveen/selenium-elearning-automation-framework/: 502 Connection timed out
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:530)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 19:03:26.710
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-upload-pack
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:221)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:159)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:100)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$3.run(RefSpecPage.java:254)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:311)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:198)
+	... 4 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 19:03:58.445
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-upload-pack
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:221)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:159)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:100)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$3.run(RefSpecPage.java:254)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:311)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:198)
+	... 4 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:05:29.639
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:05:29.667
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 19:06:33.776
+!MESSAGE Failed to initialize Git team provider.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Project.move(Project.java:975)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not move '/Selenium-Automation-Elearning-Framework-TestNG'.
+org.eclipse.core.runtime.CoreException: Could not move: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:390)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:823)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:968)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:386)
+	... 13 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2020-02-17 19:06:33.776
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2020-02-17 19:06:33.776
+!MESSAGE Could not move '/Selenium-Automation-Elearning-Framework-TestNG'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:390)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:823)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:968)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:386)
+	... 13 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2020-02-17 19:06:33.776
+!MESSAGE Could not move: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:386)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:823)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:968)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG.
+java.nio.file.FileSystemException: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:386)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:823)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:968)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2020-02-17 19:06:33.780
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2020-02-17 19:06:33.780
+!MESSAGE Could not delete: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG.
+!STACK 0
+java.nio.file.FileSystemException: E:\My Exercise\repositoryforproject\Selenium-Automation-Elearning-Framework-TestNG: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:386)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:823)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:968)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:197)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:06:33.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:06:33.888
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:07:49.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:07:49.118
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:10:13.290
+!MESSAGE An exception occurred during push on URI https://github.com/adithnaveen/selenium-elearning-automation-framework/: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:11:46.575
+!MESSAGE An exception occurred during push on URI https://github.com/adithnaveen/selenium-elearning-automation-framework/: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/adithnaveen/selenium-elearning-automation-framework/: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:16:03.402
+!MESSAGE An exception occurred during push on URI https://github.com/ani2022/Cyclos.git: https://github.com/ani2022/Cyclos.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/ani2022/Cyclos.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:17:01.354
+!MESSAGE An exception occurred during push on URI https://github.com/Ani2022/Cyclos.git: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:17:37.395
+!MESSAGE An exception occurred during push on URI https://github.com/Ani2022/Cyclos.git: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:21:27.257
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:21:27.272
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:21:56.636
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 19:21:56.652
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:24:48.284
+!MESSAGE An exception occurred during push on URI https://github.com/Ani2022/Cyclos.git: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.egit.core 4 0 2020-02-17 19:25:19.610
+!MESSAGE An exception occurred during push on URI https://github.com/Ani2022/Cyclos.git: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Ani2022/Cyclos.git: cannot open git-receive-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:551)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.eclipse.jgit.transport.http.JDKHttpConnection.getResponseCode(JDKHttpConnection.java:98)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:196)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	... 6 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:12:38.320
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:12:38.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:15:29.557
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:15:29.604
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:11.995
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:12.010
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:33.448
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:33.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:53.697
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:21:53.712
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:22:16.086
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 21:22:16.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:40.319
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:40.350
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:40.366
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:40.366
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:46.069
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:46.100
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:46.116
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:26:46.131
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 21:29:59.252
+!MESSAGE Unable to read object AnyObjectId[37ec8a06a3472d806fa807e0a554b42ac8630dd6] for content proposal assistance
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown 37ec8a06a3472d806fa807e0a554b42ac8630dd6
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:160)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:234)
+	at org.eclipse.egit.ui.internal.components.RefContentProposal.getDescription(RefContentProposal.java:126)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.lambda$4(ContentProposalAdapter.java:928)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.egit.ui.internal.actions.PushBranchActionHandler.execute(PushBranchActionHandler.java:40)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:830)
+	at org.eclipse.ui.menus.CommandContributionItem.access$21(CommandContributionItem.java:816)
+	at org.eclipse.ui.menus.CommandContributionItem$5.handleEvent(CommandContributionItem.java:806)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:05.924
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:05.955
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:05.971
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:05.986
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:26.454
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:26.485
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:26.516
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 21:30:26.516
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:30:09.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:30:09.444
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:31:36.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:31:36.410
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 22:34:06.429
+!MESSAGE Unable to read object AnyObjectId[37ec8a06a3472d806fa807e0a554b42ac8630dd6] for content proposal assistance
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown 37ec8a06a3472d806fa807e0a554b42ac8630dd6
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:160)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:234)
+	at org.eclipse.egit.ui.internal.components.RefContentProposal.getDescription(RefContentProposal.java:126)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.lambda$4(ContentProposalAdapter.java:928)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.egit.ui.internal.commit.CommitJob$3.run(CommitJob.java:180)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.egit.ui 4 0 2020-02-17 22:34:08.382
+!MESSAGE Unable to read object AnyObjectId[aa4c3c746efa3b0722651e18ef2ea1dc52e04aee] for content proposal assistance
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown aa4c3c746efa3b0722651e18ef2ea1dc52e04aee
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:160)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:234)
+	at org.eclipse.egit.ui.internal.components.RefContentProposal.getDescription(RefContentProposal.java:126)
+	at org.eclipse.jface.fieldassist.ContentProposalAdapter$ContentProposalPopup.lambda$4(ContentProposalAdapter.java:928)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.egit.ui.internal.commit.CommitJob$3.run(CommitJob.java:180)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:30.458
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:30.474
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:30.490
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:30.505
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:37.489
+!MESSAGE System property http.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:37.505
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:37.520
+!MESSAGE System property https.proxyHost is set to 172.30.52.14 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-17 22:34:37.552
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:39:03.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:39:03.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:41:48.685
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:41:48.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:42:46.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-17 22:42:46.195
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,9 @@
+package mytestcase;
+
+import org.testng.annotations.Test;
+
+public class MemberLog {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14464" started-at="2020-02-13T06:54:48Z" finished-at="2020-02-13T06:55:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14464" started-at="2020-02-13T06:54:48Z" finished-at="2020-02-13T06:55:03Z">
+      <class name="mytestcase.MineTestcase">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mytestcase.MineTestcase@3a82f6ef]" name="launch" is-config="true" duration-ms="11895" started-at="2020-02-13T06:54:48Z" finished-at="2020-02-13T06:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="clickedLogin()[pri:1, instance:mytestcase.MineTestcase@3a82f6ef]" name="clickedLogin" duration-ms="1503" started-at="2020-02-13T06:55:00Z" finished-at="2020-02-13T06:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickedLogin -->
+        <test-method status="PASS" signature="account()[pri:2, instance:mytestcase.MineTestcase@3a82f6ef]" name="account" duration-ms="121" started-at="2020-02-13T06:55:02Z" finished-at="2020-02-13T06:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account -->
+        <test-method status="PASS" signature="manage()[pri:3, instance:mytestcase.MineTestcase@3a82f6ef]" name="manage" duration-ms="407" started-at="2020-02-13T06:55:02Z" finished-at="2020-02-13T06:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manage -->
+        <test-method status="PASS" signature="Payment()[pri:4, instance:mytestcase.MineTestcase@3a82f6ef]" name="Payment" duration-ms="498" started-at="2020-02-13T06:55:02Z" finished-at="2020-02-13T06:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+      </class> <!-- mytestcase.MineTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

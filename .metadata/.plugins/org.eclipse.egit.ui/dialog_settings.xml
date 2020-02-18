@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/adithnaveen/selenium-elearning-automation-framework/"/>
+		<item value="http://github.com/adithnaveen/selenium-elearning-automation-framework/"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Sonarahangdale &lt;60428985+Sonarahangdale@users.noreply.github.com&gt;"/>
+		<item value="IBM &lt;IBM@IBM-Testing01&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Sonarahangdale &lt;60428985+Sonarahangdale@users.noreply.github.com&gt;"/>
+		<item value="IBM &lt;IBM@IBM-Testing01&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

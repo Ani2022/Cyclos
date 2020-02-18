@@ -1,0 +1,78 @@
+package mytestcase;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class MineTestcase {
+  
+
+		public WebDriver driver;
+		  @BeforeClass 
+			public void launch(){
+				
+				System.setProperty("webdriver.chrome.driver","E:\\selenium  server\\selenium jars\\chromedriver_win32\\chromedriver.exe");
+				 driver=new ChromeDriver();
+				driver.get("http://localhost:8585/do/login");
+				 driver.manage().window().maximize();
+			}
+
+			@Test(priority=1)
+			public void clickedLogin() throws InterruptedException{
+				driver.findElement(By.xpath("//input[@id='cyclosUsername']")).sendKeys("admin");
+				driver.findElement(By.xpath("//input[@value='1']")).click();
+				driver.findElement(By.xpath("//input[@value='2']")).click();
+				driver.findElement(By.xpath("//input[@value='3']")).click();
+				driver.findElement(By.xpath("//input[@value='4']")).click();
+				
+				driver.findElement(By.xpath("//input[@value='Submit']")).click();
+				Thread.sleep(3000);
+				driver.findElement(By.id("memberUsername")).sendKeys("pinkubhai");
+				Thread.sleep(3000);
+			}
+			
+			@Test(priority=2)
+			public void account() throws AWTException, InterruptedException{
+				driver.findElement(By.xpath("//*[@id='menu3']/span[2]")).click();
+			}
+			@Test(priority=3)
+public void manage() throws AWTException, InterruptedException{
+			    driver.findElement(By.xpath("//*[@id='submenu3.3']/span[2]")).click();
+			    driver.findElement(By.xpath("//*[@id='tdContents']")).click();
+			    
+			       Robot robot = new Robot();	
+		         
+		           robot.keyPress(KeyEvent.VK_DOWN); 
+		           robot.keyPress(KeyEvent.VK_DOWN);
+		           robot.keyPress(KeyEvent.VK_DOWN);
+		           robot.keyPress(KeyEvent.VK_ENTER);
+		           Thread.sleep(3000);
+			}
+			
+			@Test(priority=4)
+			public void searching() throws InterruptedException{
+				driver.findElement(By.xpath("//*[@id='tdContents']/form/table/tbody/tr[2]/td/table/tbody/tr[5]/td[2]/input")).click();
+				Thread.sleep(3000);
+			}
+			
+			@AfterClass
+			public void end(){
+				driver.close();
+			}
+			
+}
+			
+			
+			
+			
+	
+

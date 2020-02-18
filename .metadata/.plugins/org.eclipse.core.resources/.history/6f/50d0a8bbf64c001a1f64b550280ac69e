@@ -1,0 +1,73 @@
+package mytestcase;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class MineTestcase {
+  
+
+		public WebDriver driver;
+		  @BeforeClass 
+			public void launch(){
+				
+				System.setProperty("webdriver.chrome.driver","E:\\selenium  server\\selenium jars\\chromedriver_win32\\chromedriver.exe");
+				 driver=new ChromeDriver();
+				driver.get("http://localhost:8585/do/login");
+			}
+
+			@Test(priority=1)
+			public void clickedLogin() throws InterruptedException{
+				driver.findElement(By.xpath("//input[@id='cyclosUsername']")).sendKeys("admin");
+				driver.findElement(By.xpath("//input[@value='1']")).click();
+				driver.findElement(By.xpath("//input[@value='2']")).click();
+				driver.findElement(By.xpath("//input[@value='3']")).click();
+				driver.findElement(By.xpath("//input[@value='4']")).click();
+				
+				driver.findElement(By.xpath("//input[@value='Submit']")).click();
+				Thread.sleep(3000);
+				//driver.findElement(By.id("memberUsername")).sendKeys("Nikita");
+				//li[@id='menu3']/
+			}
+			
+			@Test(priority=2)
+			public void account() throws AWTException, InterruptedException{
+				driver.findElement(By.xpath("//span[@class='menuText']")).click();
+
+			
+				WebElement book1= driver.findElement(By.xpath("//select[@name='query(transferType)']"));
+			
+				 Robot robot = new Robot();	
+		           Thread.sleep(2000);	
+		           robot.keyPress(KeyEvent.VK_DOWN); 
+		           robot.keyPress(KeyEvent.VK_DOWN);
+		           robot.keyPress(KeyEvent.VK_DOWN);
+		           robot.keyPress(KeyEvent.VK_ENTER);
+			}
+			
+			@Test(priority=3)
+			public void searching(){
+				driver.findElement(By.xpath("//input[@value='Search']")).click();
+			}
+			
+			@AfterClass
+			public void end(){
+				driver.close();
+			}
+			
+}
+			
+			
+			
+			
+	
+
